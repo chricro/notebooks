@@ -4,6 +4,9 @@
 
 This project was developed during the first edition of the [Genopole hackathon](https://www.genopole.fr/temps-forts/agenda/d4gen-hackathon-2022/) from May 19 to 21, 2021. Our team created a tool to label mouse cells into two categories: **fast** and **slow** cells. By leveraging advanced computer vision techniques and machine learning models, our tool aims to facilitate the analysis of cell behavior in biological research.
 
+<p align="center">
+<img src='./miscellaneous/mice_fiber_classification.png' width='800'/>
+</p>
 
 ## Technologies Used
 
