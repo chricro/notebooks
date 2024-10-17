@@ -8,6 +8,7 @@ JPMorgan Forage is a virtual program that offers participants an opportunity to 
 <img src='./miscellaneous/natural_gas.jpg' width='800'/>
 </p>
 
+
 ## Task Instructions
 
 ### Task Description
