@@ -4,6 +4,10 @@
 
 JPMorgan Forage is a virtual program that offers participants an opportunity to engage in real-world tasks that quantitative researchers perform throughout their careers. This program provides insights into quantitative analysis, data modeling, and forecasting techniques critical in the finance and commodity trading sectors.
 
+<p align="center">
+<img src='./miscellaneous/natural_gas.jpg' width='800'/>
+</p>
+
 ## Task Instructions
 
 ### Task Description
