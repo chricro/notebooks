@@ -30,6 +30,22 @@ To address the task, I chose to implement the SARIMA (Seasonal Autoregressive In
 
 4. **Granularity and Precision**: Implementing this model allows for more granular insights into price behavior, which is crucial for accurate pricing of natural gas storage contracts.
 
-## Conclusion
+### Results
 
-Completing this task will demonstrate the application of quantitative research techniques in a practical context. The analysis will provide valuable insights for making informed trading decisions in the natural gas market.
+The forecasted values from the SARIMA model appear to align well with the historical data trends. Nevertheless, several factors should be considered to enhance forecast reliability:
+
+1. **Model Parameter Dependency**: The accuracy of these forecasts is highly dependent on the appropriateness of the model parameters to the data characteristics, necessitating regular reassessments and updates as new data become available.
+
+2. **External Influences**: The model currently relies solely on historical price data. However, natural gas prices are influenced by various factors, including geopolitical events, regulatory changes, technological progress, and shifts in demand and supply, which are not accounted for in this model. This exclusion could potentially diminish the forecast's accuracy.
+
+3. **Market Volatility**: The natural gas market is notoriously volatile, with prices susceptible to abrupt changes due to unforeseen market dynamics, which may not be adequately predicted by a model based solely on historical data.
+
+4. **Alternative Approaches**: While the SARIMA model serves as a robust baseline for forecasting, enhancing it with updated data, considering a combination of models, or integrating external variables would likely improve its accuracy and robustness.
+
+5. **Advanced Modeling Considerations**: Given the dataset currently only includes time-series data on natural gas prices, using advanced machine learning or deep learning models might not fully capture the complexity or add significant value beyond simpler models due to the limited feature set. Simple models, such as linear regression or bi-regression with sinusoidal components, might be more appropriate in this context.
+
+6. **Exploration of Other Models**: For more intricate scenarios where additional data attributes are available, other models could be explored, including:
+   - **Machine Learning Models**: Techniques like regression analysis, support vector machines, or ensemble methods (e.g., random forests and gradient boosting machines) could be beneficial. These models can incorporate auxiliary variables (like economic indicators or weather conditions) that influence natural gas prices.
+   - **Deep Learning Models**: LSTM networks or other RNN variants are well-suited for sequence prediction tasks and can model the complex nonlinear relationships often present in comprehensive datasets.
+
+7. **Dataset Limitations**: Furthermore, after verifying that the provided dataset of natural gas prices did not accurately reflect reality, I have concluded that the dataset is unrealistic and designed for academic purposes. In practice, the signal-to-noise ratio in such datasets is very low, making it challenging to forecast the price of a volatile commodity like natural gas. Additionally, relying solely on price data is insufficient for making robust estimations.
